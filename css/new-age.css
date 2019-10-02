@@ -204,7 +204,7 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 80px 0;
 }
 
 section.download h2 {
@@ -235,6 +235,10 @@ section.download .badges .badge-link img {
 @media (min-width: 768px) {
   section.download h2 {
     font-size: 70px;
+  }
+
+  section.features {
+    padding-top: : 30px;
   }
 
   section.features .section-heading {
