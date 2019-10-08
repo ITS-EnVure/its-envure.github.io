@@ -157,9 +157,17 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: #467178;;
+  color: #467178;
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url(../img/bg-pattern.png), linear-gradient(to left, #ffffff, #bbdcff85);
+}
+
+.table-masthead {
+  position: relative;
+  padding: 180px 0;
+  background: #fdcc52;
+  background: linear-gradient(#70d3e3, #ffffff);
+  background: url(../img/bg-pattern.png), linear-gradient(to BOTTOM, #ac87bc, #FFF, #fff);
 }
 
 header.masthead .header-content {
@@ -252,8 +260,8 @@ section.features .section-heading {
 }
 
 section.features .section-heading h2 {
-  margin-top: 0;
-}
+  margin-top: 0
+;}
 
 section.features .section-heading p {
   margin-bottom: 0;
