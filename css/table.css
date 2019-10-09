@@ -14,20 +14,21 @@ table{
   */
 }
 .tbl-header{
-  /*background-color: rgba(255,255,255,0.3);*/
+  background-color: rgba(255,255,255,0.3);
  }
 .tbl-content{
-  height:300px;
+  height:550px;
   overflow-x:auto;
   margin-top: 0px;
   border: 1px solid rgba(0,0,0,0.3);
+  background-color: #856a900f;
 }
 th{
   padding: 20px 15px;
   text-align: left;
   font-weight: 500;
   font-size: 28px;
-  color: #000;
+  color: #545a65;
   text-transform: uppercase;
 }
 td{
@@ -36,10 +37,13 @@ td{
   vertical-align:middle;
   font-weight: 300;
   font-size: 20px;
-  color: #000;
+  color: #545a65;
   border-bottom: solid 1px rgba(0,0,0,0.1);
 }
 
+.tb-first-row {
+  font-weight: 700;
+}
 
 /* demo styles */
 
