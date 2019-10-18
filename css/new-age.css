@@ -88,7 +88,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  /*font-size: 11px;*/
+  font-size: 18px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -127,6 +127,8 @@ section h2 {
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
     color: rgb(80, 121, 128);
+    padding-right: 1.5rem;
+    padding-left: 2.5rem;
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
@@ -149,6 +151,9 @@ section h2 {
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
     color: rgb(125, 66, 149, 0.72);
+  }
+  .logo-width {
+    margin: 0px 0px 0px 50px !important;
   }
 }
 
@@ -529,4 +534,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .article-slide .carousel-indicators .active img {
     border: 2px solid #428BCA;
     opacity: 0.7;
+}
+
+.logo-width {
+  max-width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar-brand {
+  padding: 15px 0 0 0;
 }
