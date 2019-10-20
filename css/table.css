@@ -28,8 +28,11 @@ th{
   text-align: left;
   font-weight: 500;
   font-size: 28px;
-  color: #545a65;
   text-transform: uppercase;
+}
+
+thead {
+  color: #5fa3ad;
 }
 td{
   padding: 15px;

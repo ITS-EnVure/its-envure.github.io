@@ -59,6 +59,10 @@ section h2 {
   /*font-size: 50px;*/
 }
 
+thead {
+  color: #5dafbc;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -160,7 +164,7 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
+  padding-top: 70px;
   padding-bottom: 100px;
   color: #467178;
   background: url("../img/bg-pattern.png"), #7b4397;
@@ -495,7 +499,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .call-action-bold {
   font-weight: 200;
-  color: #856a90;
+  color: #43737a;
 }
 
 /* Main carousel style */
@@ -545,4 +549,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .navbar-brand {
   padding: 15px 0 0 0;
+}
+
+.envure-logo {
+  width: 225px;
+  background: url("/img/ITS-EnVure-Logo scaled.png") no-repeat;
+  background-size: contain;
+  height: 54px;
+  max-width: 100%;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.envure-logo:hover {
+  background: url("/img/ITS-EnVure-Logo scaled-hover.png") no-repeat;
+  background-size: contain;
 }
